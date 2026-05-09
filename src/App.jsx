@@ -4,6 +4,7 @@ import Menu from './components/Menu'
 import ListaAlunos from './components/ListaAlunos'
 import ListaFilmes from './components/ListaFilmes'
 import Titulo from './components/Titulo'
+import Usuarios from './components/Usuarios'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ListaProdutos />
       <ListaAlunos />
       <ListaFilmes />
+      <Usuarios />
     </div>
   )
 }
