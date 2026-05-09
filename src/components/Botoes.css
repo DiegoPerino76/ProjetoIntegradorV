@@ -1,0 +1,29 @@
+.containerBotoes {
+  display: flex;
+  gap: 20px;
+}
+
+.botao {
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  transform: scale(1.05);
+}
+
+.sucesso {
+  background-color: green;
+}
+
+.erro {
+  background-color: red;
+}
+
+.aviso {
+  background-color: orange;
+}
