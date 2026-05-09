@@ -5,6 +5,7 @@ import ListaAlunos from './components/ListaAlunos'
 import ListaFilmes from './components/ListaFilmes'
 import Titulo from './components/Titulo'
 import Usuarios from './components/Usuarios'
+import GridProdutos from './components/GridProdutos'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ListaAlunos />
       <ListaFilmes />
       <Usuarios />
+      <GridProdutos />
     </div>
   )
 }
