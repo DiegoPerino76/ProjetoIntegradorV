@@ -1,0 +1,26 @@
+.filmes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cardFilme {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.cardFilme:hover {
+  transform: scale(1.05);
+}
+
+.cardFilme button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
