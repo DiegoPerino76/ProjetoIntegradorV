@@ -7,6 +7,7 @@ import Titulo from './components/Titulo'
 import Usuarios from './components/Usuarios'
 import GridProdutos from './components/GridProdutos'
 import Botoes from './components/Botoes'
+import VitrineLoja from './components/VitrineLoja'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Usuarios />
       <GridProdutos />
       <Botoes />
+      <VitrineLoja />
     </div>
   )
 }

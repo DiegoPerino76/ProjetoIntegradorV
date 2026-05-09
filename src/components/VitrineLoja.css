@@ -1,0 +1,34 @@
+.vitrine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.produtoLoja {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.produtoLoja:hover {
+  transform: translateY(-5px);
+}
+
+.imagemFake {
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.produtoLoja button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
